@@ -1,5 +1,4 @@
 WatchTestJavaProcess
 ====================
 
-JavaVM計測用Fluentd Plugin 開発用テストプロセス
-
+Measures for carrying out the test of Fluentd plugin, the performance of the Java VM, it is a test program.
