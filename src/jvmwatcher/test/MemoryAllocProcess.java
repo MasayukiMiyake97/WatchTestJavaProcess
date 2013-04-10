@@ -46,6 +46,15 @@ public class MemoryAllocProcess implements Runnable
         this.maxElementNum_ = maxElemNum;
         this.waitTime_ = watiTime;
     }
+    
+    /**
+     * get allocate data
+     * @return
+     */
+    public byte[][] getArrays()
+    {
+        return this.allocArray_;
+    }
 
     
     /* (非 Javadoc)

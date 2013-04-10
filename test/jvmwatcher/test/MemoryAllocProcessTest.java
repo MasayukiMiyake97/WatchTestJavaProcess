@@ -33,6 +33,20 @@ public class MemoryAllocProcessTest
     {
         this.target.allocMemory();
         
+        byte[][] val = this.target.getArrays();
+        
+        assertEquals(val.length, 4096);
+        assertEquals(val[0].length, 10240);
+        assertEquals(val[4095].length, 10240);
+        
+        this.target.freeMemory();
+
+        val = this.target.getArrays();
+        assertNull(val);
+        
+        this.target.allocMemory();
+        this.target.freeMemory();
+        this.target.allocMemory();
         this.target.freeMemory();
     }
 
