@@ -8,4 +8,5 @@ Measures for carrying out the test of Fluentd plugin, the performance of the Jav
 
 [Windows]
 JavaTestProc.bat [block size(byte)] [max block num] [count up time(msec)] [thread num]
+
 ex:JavaTestProc.bat 4096 1024 5 10
