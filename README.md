@@ -16,14 +16,12 @@ The execution of the batch file of the Windows
 
 >JavaTestProc.bat [block size(byte)] [max block num] [count up time(msec)] [thread num]
 
-Ex.
->JavaTestProc.bat 4096 1024 5 10
+>Ex.$JavaTestProc.bat 4096 1024 5 10
 
 The execution of the shell script file of the Linux
 
 >./JavaTestProc.sh [block size(byte)] [max block num] [count up time(msec)] [thread num]
 
-Ex.
-JavaTestProc.sh 4096 1024 5 10
+>Ex.$JavaTestProc.sh 4096 1024 5 10
 
 
